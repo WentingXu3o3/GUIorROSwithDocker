@@ -4,7 +4,7 @@ This is the instruction for ROS installation with the docker container and docke
 
 For different system isolation, I recommend using the docker environment to install the ROS system.
 
-1. Prepare the docker file
+### Prepare the docker file
    create a new folder name .devcontainer
    dockerfile
    ```
@@ -97,7 +97,7 @@ For different system isolation, I recommend using the docker environment to inst
 }
 
    ```
-2. in bash
+### in bash
 Desktop-Full Install: (Recommended) : Everything in Desktop plus 2D/3D simulators and 2D/3D perception packages
 ```
 apt install ros-noetic-desktop-full
@@ -109,7 +109,7 @@ kill -9 720
 dpkg --configure -a
 apt install ros-noetic-desktop-full
 ```
-3. catkin
+### catkin
 Catkin is the official build system for ROS (Robot Operating System). It is responsible for building, compiling, and managing the dependencies of ROS packages. It replaces the older build system in ROS, called rosbuild, and is designed to work with CMake to handle the building process.
 
 after catkin_make or catkin_build
