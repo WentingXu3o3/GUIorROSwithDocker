@@ -141,4 +141,14 @@ run ```echo $DISPLAY``` to see what is the display id like localhost:13.0
    and then run ```xeyes```
    it will display with Xquartz with sshed to server.
    
-3.in docer
+3.To Enable GUI in docker container
+
+in Xquartz, we ssh server and connect to an established container
+
+```docker exec -it ros /bin/bash```
+and change the display id with mac's IP:0
+
+<img width="734" alt="Screenshot 2024-10-14 at 23 24 51" src="https://github.com/user-attachments/assets/67e66b35-24b0-40a4-bf24-a64ff4697c42">
+
+run ```xeyes```
+
