@@ -117,3 +117,9 @@ Source your workspace: After building a workspace, you need to "source" the work
 ```
 source ~/catkin_ws/devel/setup.bash
 ```
+### GUI
+1.on mac
+ open a terminal in xquartz and ssh the server.
+ run ```echo $DISPLAY``` to see what is the display id like localhost:13.0
+2. now we can on mac terminal and ssh the server to run xeyes to see the GUI.
+3.in docer
