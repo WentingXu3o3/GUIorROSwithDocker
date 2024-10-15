@@ -34,6 +34,17 @@ echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 
+Install this tool and other dependencies for building ROS packages, run:
+```
+apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+```
+
+Initialize rosdep
+```
+rosdep init
+rosdep update
+```
+
 ### catkin
 Catkin is the official build system for ROS (Robot Operating System). It is responsible for building, compiling, and managing the dependencies of ROS packages. It replaces the older build system in ROS, called rosbuild, and is designed to work with CMake to handle the building process.
 
