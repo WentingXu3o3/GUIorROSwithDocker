@@ -7,7 +7,8 @@ For different system isolation, I recommend using the docker environment to inst
 
 ## Prepare the docker files to build the container
 Create a new folder named ".devcontainer" with Dockerfile, docker-compose.yml, and devcontainer.json
-In VScode, open folder (last directory which holds .devcontainer) in container.
+
+In VScode, to build the container with "open folder (last directory which holds .devcontainer) in container"
 
 ## in bash
 Desktop-Full Install: (Recommended): Everything in Desktop plus 2D/3D simulators and 2D/3D perception packages
