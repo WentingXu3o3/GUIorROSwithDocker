@@ -6,7 +6,10 @@ Here is a key issue for enabling gui with docker container
 For different system isolation, I recommend using the docker environment to install the ROS system.
 
 ## Prepare the docker files to build the container
+
 Create a new folder named ".devcontainer" with Dockerfile, docker-compose.yml, and devcontainer.json
+
+We follow the instruction with https://wiki.ros.org/noetic/Installation/Ubuntu
 
 In VScode, to build the container with "open folder (last directory which holds .devcontainer) in container"
 
