@@ -1,4 +1,4 @@
-# ROSwithDocker
+# GUI or ROS withDocker
 This is the instruction for ROS installation with the docker container and docker image in VScode.
 
 
