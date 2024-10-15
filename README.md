@@ -25,7 +25,11 @@ kill -9 720
 dpkg --configure -a
 apt install ros-noetic-desktop-full
 ```
-
+And then source this script in every bash terminal you use ROS in automatically with
+```
+echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+```
 
 ### catkin
 Catkin is the official build system for ROS (Robot Operating System). It is responsible for building, compiling, and managing the dependencies of ROS packages. It replaces the older build system in ROS, called rosbuild, and is designed to work with CMake to handle the building process.
