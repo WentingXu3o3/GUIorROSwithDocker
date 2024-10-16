@@ -14,6 +14,17 @@ We follow the instruction with https://wiki.ros.org/noetic/Installation/Ubuntu
 In VScode, to build the container with "open folder (last directory which holds .devcontainer) in container"
 
 ## in bash
+Enable the GUI
+10.17.96.221 is your Mac's IP. You can get your Mac IP address unattached to the server to see the last time linked IP.
+```
+echo "export DISPLAY=10.17.96.221:0" >> ~/.bashrc
+```
+run this to see gui
+```
+xeyes
+```
+
+
 Desktop-Full Install: (Recommended): Everything in Desktop plus 2D/3D simulators and 2D/3D perception packages
 Don't forget to pick your timezone and keyboard layout.
 
