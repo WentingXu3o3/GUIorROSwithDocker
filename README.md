@@ -18,7 +18,7 @@ Enable the GUI
 10.17.96.221 is your Mac's IP. You can get your Mac IP address unattached to the server to see the last time linked IP.
 for every bash in docker
 ```
-echo "export DISPLAY=10.17.96.221:0" >> ~/.bashrc
+export DISPLAY=10.17.96.221:0 >> ~/.bashrc
 ```
 run this to see gui
 ```
