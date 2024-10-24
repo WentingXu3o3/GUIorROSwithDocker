@@ -97,3 +97,12 @@ and change the display id with mac's IP:0
 
 run ```xeyes```
 
+4. Also, outside container, but on host. You can also change the DISPLAY to your mac ip to see.
+   ```
+   export DISPLAY=<YourMacIP>:0
+   ```
+   if you want all your bash to match this:
+   ```
+   echo "export DISPLAY=<YourMACIP>:0" >> ~/.bashrc
+   source ~/.bashrc
+   ```
