@@ -97,7 +97,7 @@ and change the display id with mac's IP:0
 
 run ```xeyes```
 
-4. Also, outside container, but on host. You can also change the DISPLAY to your mac ip to see.
+4.Also, outside container, but on host. You can also change the DISPLAY to your mac ip to see.
    ```
    export DISPLAY=<YourMacIP>:0
    ```
