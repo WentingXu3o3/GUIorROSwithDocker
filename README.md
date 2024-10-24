@@ -13,7 +13,7 @@ We follow the instruction with https://wiki.ros.org/noetic/Installation/Ubuntu
 
 In VScode, to build the container with "open folder (last directory which holds .devcontainer) in container"
 
-## in bash
+## In bash
 Enable the GUI
 10.17.96.221 is your Mac's IP. You can get your Mac IP address unattached to the server to see the last time linked IP.
 for every bash in docker
@@ -65,8 +65,8 @@ Source your workspace: After building a workspace, you need to "source" the work
 ```
 source ~/catkin_ws/devel/setup.bash
 ```
-### GUI
-1.on mac
+## GUI without nvidia-gpu rendering
+1. on mac
  open a terminal in Xquartz and SSH the server.
 
  <img width="486" alt="Screenshot 2024-10-14 at 22 55 00" src="https://github.com/user-attachments/assets/34801481-62d8-4c3b-a22f-d48f1654f340">
@@ -86,7 +86,7 @@ run ```echo $DISPLAY``` to see what is the display id like localhost:13.0
    and then run ```xeyes```
    it will display with Xquartz with sshed to server.
    
-3.To Enable GUI in docker container
+3. To Enable GUI in docker container
 
 in Xquartz, we ssh server and connect to an established container
 
@@ -97,7 +97,7 @@ and change the display id with mac's IP:0
 
 run ```xeyes```
 
-4.Also, outside container, but on host. You can also change the DISPLAY to your mac ip to see.
+4. Also, outside container, but on host. You can also change the DISPLAY to your mac ip to see.
    ```
    export DISPLAY=<YourMacIP>:0
    ```
@@ -106,3 +106,4 @@ run ```xeyes```
    echo "export DISPLAY=<YourMACIP>:0" >> ~/.bashrc
    source ~/.bashrc
    ```
+## GUI with OpenGL on Nvidia-GPU
