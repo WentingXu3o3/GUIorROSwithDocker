@@ -96,7 +96,6 @@ and change the display id with mac's IP:0
 <img width="734" alt="Screenshot 2024-10-14 at 23 24 51" src="https://github.com/user-attachments/assets/67e66b35-24b0-40a4-bf24-a64ff4697c42">
 
 run ```xeyes```
-
 4. Also, outside container, but on host. You can also change the DISPLAY to your mac ip to see.
    ```
    export DISPLAY=<YourMacIP>:0
