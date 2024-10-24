@@ -66,7 +66,7 @@ Source your workspace: After building a workspace, you need to "source" the work
 source ~/catkin_ws/devel/setup.bash
 ```
 ## GUI without nvidia-gpu rendering
-1. on mac
+### 1. on mac
  open a terminal in Xquartz and SSH the server.
 
  <img width="486" alt="Screenshot 2024-10-14 at 22 55 00" src="https://github.com/user-attachments/assets/34801481-62d8-4c3b-a22f-d48f1654f340">
@@ -77,7 +77,7 @@ run ```echo $DISPLAY``` to see what is the display id like localhost:13.0
 <img width="246" alt="Screenshot 2024-10-14 at 22 55 56" src="https://github.com/user-attachments/assets/c7e586bc-b442-4831-ba41-666f38b365b5">
 
  
-2. now we can on mac terminal and ssh the server to run xeyes to see the GUI.
+### 2. now we can on mac terminal and ssh the server to run xeyes to see the GUI.
    if you meet this,
    
 <img width="728" alt="Screenshot 2024-10-14 at 23 02 40" src="https://github.com/user-attachments/assets/66ddc71b-4710-4c8d-86f1-f5a5ac42f71e">
@@ -86,7 +86,7 @@ run ```echo $DISPLAY``` to see what is the display id like localhost:13.0
    and then run ```xeyes```
    it will display with Xquartz with sshed to server.
    
-3. To Enable GUI in docker container
+### 3. To Enable GUI in docker container
 
 in Xquartz, we ssh server and connect to an established container
 
@@ -97,7 +97,7 @@ and change the display id with mac's IP:0
 
 run ```xeyes```
 
-4. Also, outside container, but on host. You can also change the DISPLAY to your mac ip to see.
+### 4. Also, outside container, but on host. You can also change the DISPLAY to your mac ip to see.
    ```
    export DISPLAY=<YourMacIP>:0
    ```
