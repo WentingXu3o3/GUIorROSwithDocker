@@ -117,5 +117,5 @@ glxgears
 if works, run ```nvidia-smi```, we can see glxgears run with nvidia GPU
 // ### 2.Secondly, build a contianer with  OpenGL docker image
 
-For openGL, it the libgl should be same as the host, to enable the nvidia gpu rendenring
+For openGL, it the libgl version should be same as the host, to enable the nvidia gpu rendenring
 
