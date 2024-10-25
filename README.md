@@ -107,3 +107,16 @@ run ```xeyes```
    source ~/.bashrc
    ```
 ## GUI with OpenGL on Nvidia-GPU
+
+
+### 1.Firstly, test OpenGl on host machine
+```
+sudo apt-get update && sudo apt-get install mesa-utils
+glxgears
+```
+if works, run ```nvidia-smi```, we can see glxgears run with nvidia GPU
+### 2.Secondly, build a contianer with  OpenGL docker image
+
+```
+
+```
