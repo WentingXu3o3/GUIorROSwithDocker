@@ -17,7 +17,11 @@ In VScode, to build the container with "open folder (last directory which holds 
 Enable the GUI
 Find Mac's IP. You can get your Mac IP address unattached to the server to see the last time linked IP.
 for every bash in docker
-```
+First, check your loaclhost like mac could run xeyes. If not, start xquartz and echo "export DISPLAY=:0" >> ~/.bashrc and source ~/.bashrc. 
+Second, check the sshed mahcine has been added to xhost by xhost + YOURSSHIP. IF it is first time to be added, you will see SSHIP being added to access control list.
+Third, on your ssh mahcine run
+
+```. 
 echo "export DISPLAY=YourMacIP:0" >> ~/.bashrc
 ```
 run this to see gui
