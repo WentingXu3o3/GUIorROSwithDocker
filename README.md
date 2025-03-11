@@ -82,6 +82,13 @@ run ```echo $DISPLAY``` to see what is the display id like localhost:13.0
 
  
 ### 2. now we can on mac terminal and ssh the server to run xeyes to see the GUI.
+For the first time on a new server, on your local client run ```xhost +serverIP``` to add to access control list
+And open Xorg and run xeyes, and ```echo $DISPLAY``` to see which display using, like :0.
+
+on your server, change ```export DISPLAY=<Your local Mac Ip>:0```
+
+
+
    if you meet this,
    
 <img width="728" alt="Screenshot 2024-10-14 at 23 02 40" src="https://github.com/user-attachments/assets/66ddc71b-4710-4c8d-86f1-f5a5ac42f71e">
